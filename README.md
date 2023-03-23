@@ -1,18 +1,16 @@
-House Price Prediction and EDA
-
+# House Price Prediction and EDA
+# Overview of the project:
 This repository contains a house price prediction project with exploratory data analysis (EDA). The goal of the project is to predict the price of houses using regression models.We all have experienced a time when we have to look up for a new house to buy. But then the journey begins with a lot of frauds, negotiating deals, researching the local areas and so on.
-
 House Price Prediction using Machine Learning So to deal with this kind of issues Today we will be preparing a MACHINE LEARNING Based model, trained on the House Price Prediction Dataset.
 
-Data:
+# Data:
 
 The dataset used in this project is from the Kaggle 
 
-Exploratory Data Analysis
+# Exploratory Data Analysis
 The exploratory data analysis notebook is named EDA.ipynb. In this notebook, you will find the following:
 
-``` python 
-Dataset contains:
+# Dataset contains:
 
 1 Id To count the records.
 
@@ -39,22 +37,19 @@ Dataset contains:
 12 TotalBsmtSF Total square feet of basement area
 
 13 SalePrice To be predicted
-```
 
-House Price Prediction
+
+# House Price Prediction
 The house price prediction notebook is named House Price Prediction & EDA.ipynb. In this notebook, you will find the following:
-
-```python
-Data loading and basic information about the data.
+# Data loading and basic information about the data.
 
 Feature selection: selecting the most important features based on correlation analysis and feature importance.
 Data preprocessing: handling missing data, transforming numerical and categorical variables, and handling outliers.
 Model selection: testing different regression models, such as Linear Regression, Support vector machine, Random Forest Regression.
 Model evaluation: evaluating the performance of each model using mean absolute error.
 Model tuning: selecting the best hyperparameters for the best-performing model.
-```
-``` python 
-Requirements
+# Requirements
+```python
 To run the notebooks, you need to have Python 3 installed, along with the following libraries:
 
 Pandas
@@ -65,6 +60,6 @@ Scikit-learn
 You can install these libraries by running pip install -r requirements.txt in your terminal.
 ```
 
-Conclusion:
+# Conclusion:
 
 This project shows how to use exploratory data analysis and regression models to predict the sale price of houses. It also demonstrates how to handle missing data, transform numerical and categorical variables. The best-performing model was selected based on cross-validation and different metrics.Clearly, SVM model is giving better accuracy as the mean absolute error is the least among all the other regressor models i.e. 0.18 approx. To get much better results ensemble learning techniques like Bagging and Boosting can also be used.
